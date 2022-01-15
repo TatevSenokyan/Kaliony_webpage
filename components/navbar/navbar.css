@@ -1,0 +1,79 @@
+.navbar {
+    width:100%;
+    display:flex;
+    height:111px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.img {
+    background-image: url('./images/logo.png');
+    width:20%;
+    height:111px;
+    background-size:100% 100%
+}
+
+ul {
+    display:flex;
+    width:60%;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+ul>li {
+   list-style-type: none;
+   margin-right:8px
+}
+ul li:after {
+    content: url('./images/arrow.png');
+}
+.signinSearchLangWrapper {
+    display:flex;
+    width:20%;
+    align-items: center;
+}
+
+.signinText {
+    font-family: Bebas Neue !important;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size:20px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.imgLang {
+    background-image:url('./images/english-flag.png');
+    width:36px; 
+    height:36px
+}
+
+.imgSearch {
+    background-image: url('./images/search-icon.png');
+    width:29px;
+     height:29px;
+     background-size:100% 100%;
+      margin-left: 15px;
+}
+.imgBasket {
+    background-image: url('./images/bascet-icon.png');
+    width:29px;
+    background-size:100% 100%;
+    height:28px;
+    margin-left: 15px
+}
+
+.imgArrow {
+    background-image: url(./images/arrow.png);
+    width:10px;
+     height:5px;
+     margin-left: 2px;
+  }
+
+

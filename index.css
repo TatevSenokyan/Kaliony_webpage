@@ -1,0 +1,190 @@
+body {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    position:relative
+}
+
+.headerWarning {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+    height:40px;
+    text-align: center;
+    background-color:#3E3E3E; 
+}
+.warningText {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-indicators  {
+   margin-left:-260px
+  }
+  .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-caption{
+  width:87%;
+  height:600px;
+  display:flex;
+  margin-bottom:100px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left:-7%
+}
+.exploreText {
+    text-align:left; 
+}
+
+.ourproductsContainer {
+    width:100%;
+    height:auto
+}
+
+#carouselExampleControls {
+   margin:auto;
+   width:100%;
+}
+
+.carousel-control-prev {
+   margin-left:-1.5%
+}
+.carousel-control-next {
+    margin-right:-1.5%
+ }
+
+.carousel-control-prev-icon {
+    background-image: url('./assets/images/prev-icon.png');
+    width:50px;
+    height:50px
+}
+.carousel-control-next-icon {
+    background-image: url('./assets/images/prev-icon.png');
+    transform:rotate(180deg);
+    width:50px;
+    height:50px
+}
+.productImg {
+    width:100%;
+    height:400px;
+    background-size:100% 100%;
+    background-repeat:no-repeat
+}
+.ourproducttext {
+    width:86%;
+    margin:auto;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+.starsImg {
+    width:100px;
+    height:100px;
+    background-repeat:no-repeat
+}
+.productPrice {
+    display:flex;
+    height:16px;
+    align-items: center;
+    padding-left:10px;
+    width:60px;
+    justify-content: space-between;
+}
+
+.productPrice:before {
+    content:url('./assets/images/price.png');
+   
+}
+
+.newArrivalsWrapper {
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    width:86%;
+    
+}
+.arrivalContent{
+    width:48%;
+    height:100%;
+   
+
+}
+.smokesWrapper {
+    display:flex;
+    width:100%
+}
+
+.travelKitWrapper  {
+  width:48%;
+  height:100%;
+  margin-left:15%
+}   
+
+.newArrivalTitle {
+    width:86%;
+    margin:auto
+}
+.whoWeAreContainer {
+    width:86%;
+    margin:148px auto;
+    
+}
+.whowearetext {
+    width:45.8%;
+    margin-left:4%;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-top:48px
+}
+.whowearecontent {
+    width:100%;
+    display:flex;
+    
+}
+.whowearetitle {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+.smokeItem {
+    width:42%;
+    height:509px
+}
+.kalionyContainer {
+    width:86%;
+    margin:auto
+}
+.archievedContainer {
+    width:86%;
+    margin:auto
+
+}
+.archivedItems {
+    width:100%;
+    display:flex
+}
+
+
+
